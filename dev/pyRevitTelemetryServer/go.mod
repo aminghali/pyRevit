@@ -1,6 +1,6 @@
 module pyrevittelemetryserver
 
-go 1.23.0
+go 1.24
 
 toolchain go1.24.3
 
@@ -33,7 +33,7 @@ require (
 	// Indirect dependencies
 	github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe // indirect
 	github.com/golang/snappy v0.0.1 // indirect
-	github.com/klauspost/compress v1.13.6 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/text v0.22.0 // indirect
